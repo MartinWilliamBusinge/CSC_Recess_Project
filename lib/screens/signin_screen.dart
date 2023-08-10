@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_signin/reusable_widgets/reusable_widget.dart';
-import 'package:firebase_signin/screens/home_screen.dart';
-import 'package:firebase_signin/screens/reset_password.dart';
-import 'package:firebase_signin/screens/signup_screen.dart';
-import 'package:firebase_signin/utils/color_utils.dart';
+import 'package:Step_Sync_App/reusable_widgets/reusable_widget.dart';
+import 'package:Step_Sync_App/screens/home_screen.dart';
+import 'package:Step_Sync_App/screens/reset_password.dart';
+import 'package:Step_Sync_App/screens/signup_screen.dart';
+import 'package:Step_Sync_App/utils/color_utils.dart';
 import 'package:flutter/material.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -34,7 +34,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 20, MediaQuery.of(context).size.height * 0.2, 20, 0),
             child: Column(
               children: <Widget>[
-                logoWidget("assets/images/logo1.png"),
+                logoWidget("assets/images/logo.JPG"),
                 const SizedBox(
                   height: 30,
                 ),
